@@ -1,0 +1,1 @@
+# odoo_server_manager_c
