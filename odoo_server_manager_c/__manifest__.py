@@ -25,9 +25,7 @@ You can use a URL, username, password, and commands to manage the details of you
         'views/warning_box.xml',
 
     ],
-    'demo': [
-        'demo/demo.xml',
-    ],
+
 
     'images': [
         'static/description/module_image.jpg',
