@@ -15,7 +15,7 @@ You can use a URL, username, password, and commands to manage the details of you
     'license': 'OPL-1',
     'price': 85,
     'currency': 'EUR',
-    'version': '15.0.0.0',
+    'version': '14.0.0.0',
     'depends': ['base'],
     'external_dependencies': {'python' : ["pexpect"]},
     'data': [
@@ -24,9 +24,6 @@ You can use a URL, username, password, and commands to manage the details of you
         'views/odoo_restart.xml',
         'views/warning_box.xml',
 
-    ],
-    'demo': [
-        'demo/demo.xml',
     ],
 
     'images': [
