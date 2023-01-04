@@ -1,0 +1,74 @@
+<section style="margin-top:10px; padding:20px">
+    <h1 class="oe_slogan" style="margin-left:40px; font-weight:bold; color:#1c4375; font-size:3em">
+        Start, Stop, Restart | Odoo Server Manager
+    </h1>
+    <p style="color:#1c4375; margin-left:40px; margin-top:15px; font-size:1.2em; padding-right:30rem">
+The Odoo Restart module allows the administrator to start, stop, and restart the odoo server using command-line functions. The administrator can manage multiple servers and can specify details such as the username, client name, server URL or IP, port, and password. This is useful when the client encounters problems and needs to update various server actions.
+    </p>
+    <p>
+        The Odoo Restart module allows the administrator to list the credentials for the server of different clients. Additionally, as the server action commands (start, stop, restart) vary according to the operating system, the administrator can configure the commands for starting/stopping/restarting accordingly. When the server action button is clicked, the mentioned command will be successfully executed implementing the action. The administrator can also track the server actions performed for multiple client servers through the history management function. Additional information can be mentioned in the instructions tab if needed.
+    </p>
+</section>
+<section class="oe_container oe_dark  text-center" style="padding:60px 1rem">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan" style="color:#1c4375; margin-top:6rem; font-weight:bold">
+            Requirements to be met prior to installation
+        </h2>
+        <span style="height:0; width:46px; border-bottom:3px solid #1c4375; display:inline-block; margin:2rem 0 2rem 0"></span>
+        <h3 class="oe_slogan" style="margin-bottom:2rem; font-size:22px">
+            pexpect: sudo pip3 install pexpect
+        </h3>
+    </div>
+</section>
+<section class="oe_container oe_dark  text-center" style="padding:60px 1rem">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan" style="color:#1c4375; margin-top:6rem; font-weight:bold">
+Configuration
+        </h2>
+        <span style="height:0; width:46px; border-bottom:3px solid #1c4375; display:inline-block; margin:2rem 0 2rem 0"></span>
+        <p>
+            Only users with access rights to 'Odoo Restart' can manage server actions. Go to Settings > User > Other > Odoo Restart and add server details.
+        </p>
+        <p>As you can see in the image, the administrator can add multiple client servers with various details such as username, password, server URL, port, and client name. Separate user groups are created so that server action can be easily managed, and the administrator can also provide access to a particular user to manage server action. Go to Odoo Restart -> Create -> Add details.</p>
+                <div>
+            <img class="oe_picture oe_screenshot" src="odoo_restart_detalles.png" style="margin-left:auto; margin-right:auto; vertical-align:middle; display:block; max-width:100%; border:10px solid rgba(28,67,117, 0.2); border-radius:10px">
+        </div>
+
+        <p>
+After listing the details of the client server, the administrator, in case of any difficulty with the client server, can perform various actions on the server, such as START, STOP, and RESTART. Additionally, the administrator can provide commands for server actions based on the operating system. When the server action is clicked, the particular command will be executed in the backend and the problem with the client server will be easily resolved without the need to connect to the Odoo terminal.
+        </p>
+        <div>
+            <img class="oe_picture oe_screenshot" src="odoo_restart_edit.png" style="margin-left:auto; margin-right:auto; vertical-align:middle; display:block; max-width:100%; border:10px solid rgba(28,67,117, 0.2); border-radius:10px">
+        </div>
+
+        <p>
+All actions taken can be managed through the history. The administrator can view the name of the client server, created by which user, and the server action taken on that server.
+        </p>
+        <div>
+            <img class="oe_picture oe_screenshot" src="odoo_restart_history.png" style="margin-left:auto; margin-right:auto; vertical-align:middle; display:block; max-width:100%; border:10px solid rgba(28,67,117, 0.2); border-radius:10px">
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h2 class="oe_slogan">Contact / Support</h2>
+            <h3 class="oe_slogan">Need help or want extra features?</h3>
+        </div>
+        <div class="oe_span6">
+            <div class="oe_demo oe_picture oe_screenshot">
+                <a><img src="module_image.jpg"></a>
+            </div>
+        </div>
+        <div class="oe_span6">
+            <p class="oe_mt32">
+                Need help with the configuration or want this module to have more
+                functionalities? <br> <b>Contact us on</b>
+            </p>
+            <ul class="list-group">
+                <li class="list-group-item ">E Mail : <a href="mailto:" contact="">medconsultantweb@gmail.com@gmail.com</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
