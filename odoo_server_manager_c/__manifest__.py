@@ -13,7 +13,7 @@ You can use a URL, username, password, and commands to manage the details of you
     'author': "Medconsultantweb@gmail.com",
     'category': 'Extra Tools',
     'license': 'OPL-1',
-    'price': 85,
+    'price': 35,
     'currency': 'EUR',
     'version': '16.0.0.0',
     'depends': ['base'],
